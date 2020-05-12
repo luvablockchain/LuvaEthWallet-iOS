@@ -3,18 +3,74 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F24CD8D244D904D00DE50E2 /* WeakObjectSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24CD8A244D904D00DE50E2 /* WeakObjectSet.swift */; };
+		3F24CD8E244D904D00DE50E2 /* SwiftNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24CD8C244D904D00DE50E2 /* SwiftNotificationCenter.swift */; };
+		3F3576F924480D9E00D5553F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3576F824480D9E00D5553F /* SettingsViewController.swift */; };
+		3F3576FB24480DAE00D5553F /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3576FA24480DAE00D5553F /* MainTabbarViewController.swift */; };
+		3F3576FD2448413500D5553F /* LockScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3576FC2448413500D5553F /* LockScreenViewController.swift */; };
+		3F41722B244EB13800E7E0D7 /* ScanQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41722A244EB13800E7E0D7 /* ScanQRCodeViewController.swift */; };
+		3F46031E24498F0A008F5B0D /* AddRecipientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46031D24498F0A008F5B0D /* AddRecipientViewController.swift */; };
+		3F46032024499B7D008F5B0D /* AddRecipientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46031F24499B7D008F5B0D /* AddRecipientTableViewCell.swift */; };
+		3F4603232449A164008F5B0D /* MTSlideToOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4603222449A164008F5B0D /* MTSlideToOpenView.swift */; };
+		3F4603252449A310008F5B0D /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4603242449A310008F5B0D /* UIImageView+Extensions.swift */; };
+		3F4603272449A908008F5B0D /* SendETHToAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4603262449A908008F5B0D /* SendETHToAddressViewController.swift */; };
+		3F46032A2449AB55008F5B0D /* MyLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4603282449AB55008F5B0D /* MyLabelCell.swift */; };
+		3F46032B2449AB55008F5B0D /* MyLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4603292449AB55008F5B0D /* MyLabelCell.xib */; };
+		3FA5095C2468F2F30047BBC3 /* InfoTokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5095B2468F2F30047BBC3 /* InfoTokenViewController.swift */; };
 		3FD000D92444448900C41A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD000D82444448900C41A70 /* AppDelegate.swift */; };
-		3FD000DB2444448900C41A70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD000DA2444448900C41A70 /* SceneDelegate.swift */; };
-		3FD000DD2444448900C41A70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD000DC2444448900C41A70 /* ViewController.swift */; };
 		3FD000E02444448900C41A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD000DE2444448900C41A70 /* Main.storyboard */; };
 		3FD000E22444448B00C41A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD000E12444448B00C41A70 /* Assets.xcassets */; };
 		3FD000E52444448B00C41A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD000E32444448B00C41A70 /* LaunchScreen.storyboard */; };
 		3FD000F02444448B00C41A70 /* LuvaEthWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD000EF2444448B00C41A70 /* LuvaEthWalletTests.swift */; };
 		3FD000FB2444448B00C41A70 /* LuvaEthWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD000FA2444448B00C41A70 /* LuvaEthWalletUITests.swift */; };
+		3FD0010A244449B400C41A70 /* CreateWalletEthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00109244449B400C41A70 /* CreateWalletEthViewController.swift */; };
+		3FD0011524444AFB00C41A70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FD0011724444AFB00C41A70 /* Localizable.strings */; };
+		3FD0011A24444B6000C41A70 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0011924444B6000C41A70 /* Extension.swift */; };
+		3FD0011C24444BA200C41A70 /* WalletEthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0011B24444BA200C41A70 /* WalletEthViewController.swift */; };
+		3FD0011E24444BF500C41A70 /* ImportWalletEthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0011D24444BF500C41A70 /* ImportWalletEthViewController.swift */; };
+		3FD0012024444C2B00C41A70 /* DetailsWalletEthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0011F24444C2B00C41A70 /* DetailsWalletEthViewController.swift */; };
+		3FD0012224444C4400C41A70 /* MnemonicGenerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0012124444C4400C41A70 /* MnemonicGenerationViewController.swift */; };
+		3FD0012424444C6100C41A70 /* MnemonicVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0012324444C6100C41A70 /* MnemonicVerificationViewController.swift */; };
+		3FD0012624444C7D00C41A70 /* CreatePassWordEtherWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0012524444C7D00C41A70 /* CreatePassWordEtherWalletViewController.swift */; };
+		3FD0012824444C9600C41A70 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0012724444C9600C41A70 /* BaseViewController.swift */; };
+		3FD0012A244452EB00C41A70 /* WalletEthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00129244452EB00C41A70 /* WalletEthModel.swift */; };
+		3FD00143244454DE00C41A70 /* SwiftWebVCActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0012F244454DD00C41A70 /* SwiftWebVCActivity.swift */; };
+		3FD00144244454DE00C41A70 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD00131244454DD00C41A70 /* Media.xcassets */; };
+		3FD00145244454DE00C41A70 /* SwiftWebVCActivitySafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00132244454DE00C41A70 /* SwiftWebVCActivitySafari.swift */; };
+		3FD00146244454DE00C41A70 /* SwiftWebVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FD00134244454DE00C41A70 /* SwiftWebVC.strings */; };
+		3FD00147244454DE00C41A70 /* SwiftModalWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00140244454DE00C41A70 /* SwiftModalWebVC.swift */; };
+		3FD00148244454DE00C41A70 /* SwiftWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00141244454DE00C41A70 /* SwiftWebVC.swift */; };
+		3FD00149244454DE00C41A70 /* SwiftWebVCActivityChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00142244454DE00C41A70 /* SwiftWebVCActivityChrome.swift */; };
+		3FD0014C244454EA00C41A70 /* FAIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0014A244454EA00C41A70 /* FAIcon.swift */; };
+		3FD0014D244454EA00C41A70 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FD0014B244454EA00C41A70 /* FontAwesome.ttf */; };
+		3FD00151244454F700C41A70 /* FTPopOverMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00150244454F700C41A70 /* FTPopOverMenu.m */; };
+		3FD001582444641E00C41A70 /* MnemonicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD001562444641E00C41A70 /* MnemonicCollectionViewCell.swift */; };
+		3FD001592444641E00C41A70 /* MnemonicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD001572444641E00C41A70 /* MnemonicCollectionViewCell.xib */; };
+		3FD0015D244464C000C41A70 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0015B244464C000C41A70 /* TextFieldEffects.swift */; };
+		3FD0015E244464C000C41A70 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0015C244464C000C41A70 /* HoshiTextField.swift */; };
+		3FD001602444650A00C41A70 /* SettingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0015F2444650A00C41A70 /* SettingApp.swift */; };
+		3FD001642444657E00C41A70 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD001622444657E00C41A70 /* NSBundle+Language.m */; };
+		3FD00167244465CB00C41A70 /* LuvaServiceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00166244465CB00C41A70 /* LuvaServiceData.swift */; };
+		3FD001692444677E00C41A70 /* HistoryEthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD001682444677E00C41A70 /* HistoryEthModel.swift */; };
+		3FD0016B244467A600C41A70 /* MultiBalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0016A244467A600C41A70 /* MultiBalanceModel.swift */; };
+		3FD0016D2444684000C41A70 /* MenuWalletEthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0016C2444684000C41A70 /* MenuWalletEthView.swift */; };
+		3FD0016F2444684F00C41A70 /* MenuWalletEthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD0016E2444684F00C41A70 /* MenuWalletEthView.xib */; };
+		3FD00172244468C300C41A70 /* UICustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00171244468C300C41A70 /* UICustomView.swift */; };
+		3FD001742444691200C41A70 /* AccountETHTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD001732444691200C41A70 /* AccountETHTableViewCell.swift */; };
+		3FD001762444692300C41A70 /* AccountETHTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD001752444692300C41A70 /* AccountETHTableViewCell.xib */; };
+		3FD001782444694E00C41A70 /* HistoryEthereumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD001772444694E00C41A70 /* HistoryEthereumTableViewCell.swift */; };
+		3FD0017A2444698E00C41A70 /* ShowPrivateKeysView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD001792444698E00C41A70 /* ShowPrivateKeysView.xib */; };
+		3FD0017C2444699B00C41A70 /* ShowPrivateKeysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0017B2444699B00C41A70 /* ShowPrivateKeysView.swift */; };
+		3FD0017E244469DD00C41A70 /* MnemonicSuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0017D244469DD00C41A70 /* MnemonicSuggestionsView.swift */; };
+		3FD00180244469E900C41A70 /* MnemonicSuggestionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD0017F244469E900C41A70 /* MnemonicSuggestionsView.xib */; };
+		3FD0018224446A9F00C41A70 /* LetterImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0018124446A9F00C41A70 /* LetterImageGenerator.swift */; };
+		548BCAA96AAAA957F8492C67 /* Pods_LuvaEthWalletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05D95F32986ED33C5D35727 /* Pods_LuvaEthWalletTests.framework */; };
+		81EB1CEE706ADA1F41E00B10 /* Pods_LuvaEthWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC6D45317BE5F0266410920 /* Pods_LuvaEthWallet.framework */; };
+		D8E4981F6359A09C1AF1B0FC /* Pods_LuvaEthWallet_LuvaEthWalletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DE80B397653E649422C206 /* Pods_LuvaEthWallet_LuvaEthWalletUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +91,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F24CD8A244D904D00DE50E2 /* WeakObjectSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakObjectSet.swift; sourceTree = "<group>"; };
+		3F24CD8B244D904D00DE50E2 /* SwiftNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftNotificationCenter.h; sourceTree = "<group>"; };
+		3F24CD8C244D904D00DE50E2 /* SwiftNotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotificationCenter.swift; sourceTree = "<group>"; };
+		3F3576F824480D9E00D5553F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3F3576FA24480DAE00D5553F /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
+		3F3576FC2448413500D5553F /* LockScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenViewController.swift; sourceTree = "<group>"; };
+		3F41722A244EB13800E7E0D7 /* ScanQRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRCodeViewController.swift; sourceTree = "<group>"; };
+		3F46031C2449538B008F5B0D /* LuvaEthWallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LuvaEthWallet.entitlements; sourceTree = "<group>"; };
+		3F46031D24498F0A008F5B0D /* AddRecipientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipientViewController.swift; sourceTree = "<group>"; };
+		3F46031F24499B7D008F5B0D /* AddRecipientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipientTableViewCell.swift; sourceTree = "<group>"; };
+		3F4603222449A164008F5B0D /* MTSlideToOpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTSlideToOpenView.swift; sourceTree = "<group>"; };
+		3F4603242449A310008F5B0D /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		3F4603262449A908008F5B0D /* SendETHToAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendETHToAddressViewController.swift; sourceTree = "<group>"; };
+		3F4603282449AB55008F5B0D /* MyLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabelCell.swift; sourceTree = "<group>"; };
+		3F4603292449AB55008F5B0D /* MyLabelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyLabelCell.xib; sourceTree = "<group>"; };
+		3FA5095B2468F2F30047BBC3 /* InfoTokenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTokenViewController.swift; sourceTree = "<group>"; };
 		3FD000D52444448900C41A70 /* LuvaEthWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuvaEthWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD000D82444448900C41A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FD000DA2444448900C41A70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FD000DC2444448900C41A70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FD000DF2444448900C41A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FD000E12444448B00C41A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FD000E42444448B00C41A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +119,70 @@
 		3FD000F62444448B00C41A70 /* LuvaEthWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuvaEthWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD000FA2444448B00C41A70 /* LuvaEthWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuvaEthWalletUITests.swift; sourceTree = "<group>"; };
 		3FD000FC2444448B00C41A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD00109244449B400C41A70 /* CreateWalletEthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWalletEthViewController.swift; sourceTree = "<group>"; };
+		3FD0011624444AFB00C41A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3FD0011824444B0000C41A70 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3FD0011924444B6000C41A70 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3FD0011B24444BA200C41A70 /* WalletEthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletEthViewController.swift; sourceTree = "<group>"; };
+		3FD0011D24444BF500C41A70 /* ImportWalletEthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportWalletEthViewController.swift; sourceTree = "<group>"; };
+		3FD0011F24444C2B00C41A70 /* DetailsWalletEthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsWalletEthViewController.swift; sourceTree = "<group>"; };
+		3FD0012124444C4400C41A70 /* MnemonicGenerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicGenerationViewController.swift; sourceTree = "<group>"; };
+		3FD0012324444C6100C41A70 /* MnemonicVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicVerificationViewController.swift; sourceTree = "<group>"; };
+		3FD0012524444C7D00C41A70 /* CreatePassWordEtherWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePassWordEtherWalletViewController.swift; sourceTree = "<group>"; };
+		3FD0012724444C9600C41A70 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3FD00129244452EB00C41A70 /* WalletEthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletEthModel.swift; sourceTree = "<group>"; };
+		3FD0012F244454DD00C41A70 /* SwiftWebVCActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftWebVCActivity.swift; sourceTree = "<group>"; };
+		3FD00131244454DD00C41A70 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		3FD00132244454DE00C41A70 /* SwiftWebVCActivitySafari.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftWebVCActivitySafari.swift; sourceTree = "<group>"; };
+		3FD00135244454DE00C41A70 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		3FD00136244454DE00C41A70 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SwiftWebVC.strings"; sourceTree = "<group>"; };
+		3FD00137244454DE00C41A70 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		3FD00138244454DE00C41A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		3FD00139244454DE00C41A70 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		3FD0013A244454DE00C41A70 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		3FD0013B244454DE00C41A70 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/SwiftWebVC.strings"; sourceTree = "<group>"; };
+		3FD0013C244454DE00C41A70 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SwiftWebVC.strings"; sourceTree = "<group>"; };
+		3FD0013D244454DE00C41A70 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		3FD0013E244454DE00C41A70 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		3FD0013F244454DE00C41A70 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/SwiftWebVC.strings; sourceTree = "<group>"; };
+		3FD00140244454DE00C41A70 /* SwiftModalWebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftModalWebVC.swift; sourceTree = "<group>"; };
+		3FD00141244454DE00C41A70 /* SwiftWebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftWebVC.swift; sourceTree = "<group>"; };
+		3FD00142244454DE00C41A70 /* SwiftWebVCActivityChrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftWebVCActivityChrome.swift; sourceTree = "<group>"; };
+		3FD0014A244454EA00C41A70 /* FAIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAIcon.swift; sourceTree = "<group>"; };
+		3FD0014B244454EA00C41A70 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		3FD0014F244454F600C41A70 /* FTPopOverMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPopOverMenu.h; sourceTree = "<group>"; };
+		3FD00150244454F700C41A70 /* FTPopOverMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPopOverMenu.m; sourceTree = "<group>"; };
+		3FD001552444635400C41A70 /* LuvaEthWallet-Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuvaEthWallet-Bridging.h"; sourceTree = "<group>"; };
+		3FD001562444641E00C41A70 /* MnemonicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FD001572444641E00C41A70 /* MnemonicCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MnemonicCollectionViewCell.xib; sourceTree = "<group>"; };
+		3FD0015B244464C000C41A70 /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		3FD0015C244464C000C41A70 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		3FD0015F2444650A00C41A70 /* SettingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingApp.swift; sourceTree = "<group>"; };
+		3FD001622444657E00C41A70 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		3FD001632444657E00C41A70 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		3FD00166244465CB00C41A70 /* LuvaServiceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuvaServiceData.swift; sourceTree = "<group>"; };
+		3FD001682444677E00C41A70 /* HistoryEthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryEthModel.swift; sourceTree = "<group>"; };
+		3FD0016A244467A600C41A70 /* MultiBalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiBalanceModel.swift; sourceTree = "<group>"; };
+		3FD0016C2444684000C41A70 /* MenuWalletEthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuWalletEthView.swift; sourceTree = "<group>"; };
+		3FD0016E2444684F00C41A70 /* MenuWalletEthView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuWalletEthView.xib; sourceTree = "<group>"; };
+		3FD00171244468C300C41A70 /* UICustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomView.swift; sourceTree = "<group>"; };
+		3FD001732444691200C41A70 /* AccountETHTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountETHTableViewCell.swift; sourceTree = "<group>"; };
+		3FD001752444692300C41A70 /* AccountETHTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountETHTableViewCell.xib; sourceTree = "<group>"; };
+		3FD001772444694E00C41A70 /* HistoryEthereumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryEthereumTableViewCell.swift; sourceTree = "<group>"; };
+		3FD001792444698E00C41A70 /* ShowPrivateKeysView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowPrivateKeysView.xib; sourceTree = "<group>"; };
+		3FD0017B2444699B00C41A70 /* ShowPrivateKeysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPrivateKeysView.swift; sourceTree = "<group>"; };
+		3FD0017D244469DD00C41A70 /* MnemonicSuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicSuggestionsView.swift; sourceTree = "<group>"; };
+		3FD0017F244469E900C41A70 /* MnemonicSuggestionsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MnemonicSuggestionsView.xib; sourceTree = "<group>"; };
+		3FD0018124446A9F00C41A70 /* LetterImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterImageGenerator.swift; sourceTree = "<group>"; };
+		6A877B57F6BABD6E8A6B785D /* Pods-LuvaEthWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvaEthWalletTests.release.xcconfig"; path = "Target Support Files/Pods-LuvaEthWalletTests/Pods-LuvaEthWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D1D06844F3F5509A39FE7F1 /* Pods-LuvaEthWallet-LuvaEthWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvaEthWallet-LuvaEthWalletUITests.release.xcconfig"; path = "Target Support Files/Pods-LuvaEthWallet-LuvaEthWalletUITests/Pods-LuvaEthWallet-LuvaEthWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93F472DE67436B6D039AFB13 /* Pods-LuvaEthWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvaEthWalletTests.debug.xcconfig"; path = "Target Support Files/Pods-LuvaEthWalletTests/Pods-LuvaEthWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9757C0D92C9FE8BACADD1278 /* Pods-LuvaEthWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvaEthWallet.debug.xcconfig"; path = "Target Support Files/Pods-LuvaEthWallet/Pods-LuvaEthWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		CB872541735A692F5517EF08 /* Pods-LuvaEthWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvaEthWallet.release.xcconfig"; path = "Target Support Files/Pods-LuvaEthWallet/Pods-LuvaEthWallet.release.xcconfig"; sourceTree = "<group>"; };
+		E05D95F32986ED33C5D35727 /* Pods_LuvaEthWalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuvaEthWalletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DE80B397653E649422C206 /* Pods_LuvaEthWallet_LuvaEthWalletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuvaEthWallet_LuvaEthWalletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC6D45317BE5F0266410920 /* Pods_LuvaEthWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuvaEthWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CFC3990C6D1DB759EF8F9E /* Pods-LuvaEthWallet-LuvaEthWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvaEthWallet-LuvaEthWalletUITests.debug.xcconfig"; path = "Target Support Files/Pods-LuvaEthWallet-LuvaEthWalletUITests/Pods-LuvaEthWallet-LuvaEthWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +190,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EB1CEE706ADA1F41E00B10 /* Pods_LuvaEthWallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				548BCAA96AAAA957F8492C67 /* Pods_LuvaEthWalletTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +206,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E4981F6359A09C1AF1B0FC /* Pods_LuvaEthWallet_LuvaEthWalletUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F24CD89244D8F8500DE50E2 /* SwiftNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3F24CD8B244D904D00DE50E2 /* SwiftNotificationCenter.h */,
+				3F24CD8C244D904D00DE50E2 /* SwiftNotificationCenter.swift */,
+				3F24CD8A244D904D00DE50E2 /* WeakObjectSet.swift */,
+			);
+			path = SwiftNotificationCenter;
+			sourceTree = "<group>";
+		};
+		3F4603212449A157008F5B0D /* MTSlideToOpenView */ = {
+			isa = PBXGroup;
+			children = (
+				3F4603222449A164008F5B0D /* MTSlideToOpenView.swift */,
+			);
+			path = MTSlideToOpenView;
+			sourceTree = "<group>";
+		};
 		3FD000CC2444448900C41A70 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +238,8 @@
 				3FD000EE2444448B00C41A70 /* LuvaEthWalletTests */,
 				3FD000F92444448B00C41A70 /* LuvaEthWalletUITests */,
 				3FD000D62444448900C41A70 /* Products */,
+				BB25FDF2DE7844223E43235E /* Pods */,
+				86480A8E617973EF856355A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +256,19 @@
 		3FD000D72444448900C41A70 /* LuvaEthWallet */ = {
 			isa = PBXGroup;
 			children = (
+				3F46031C2449538B008F5B0D /* LuvaEthWallet.entitlements */,
+				3FD00165244465BB00C41A70 /* ServiceData */,
+				3FD0012B2444543C00C41A70 /* Libs */,
+				3FD0010E24444A0A00C41A70 /* Untils */,
+				3FD0010D24444A0400C41A70 /* Models */,
+				3FD0010B244449E500C41A70 /* Views */,
+				3FD0010C244449F000C41A70 /* UIViewControllers */,
 				3FD000D82444448900C41A70 /* AppDelegate.swift */,
-				3FD000DA2444448900C41A70 /* SceneDelegate.swift */,
-				3FD000DC2444448900C41A70 /* ViewController.swift */,
 				3FD000DE2444448900C41A70 /* Main.storyboard */,
 				3FD000E12444448B00C41A70 /* Assets.xcassets */,
 				3FD000E32444448B00C41A70 /* LaunchScreen.storyboard */,
 				3FD000E62444448B00C41A70 /* Info.plist */,
+				3FD001552444635400C41A70 /* LuvaEthWallet-Bridging.h */,
 			);
 			path = LuvaEthWallet;
 			sourceTree = "<group>";
@@ -128,6 +291,191 @@
 			path = LuvaEthWalletUITests;
 			sourceTree = "<group>";
 		};
+		3FD0010B244449E500C41A70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FD001562444641E00C41A70 /* MnemonicCollectionViewCell.swift */,
+				3FD001572444641E00C41A70 /* MnemonicCollectionViewCell.xib */,
+				3FD0016C2444684000C41A70 /* MenuWalletEthView.swift */,
+				3FD0016E2444684F00C41A70 /* MenuWalletEthView.xib */,
+				3FD001732444691200C41A70 /* AccountETHTableViewCell.swift */,
+				3FD001752444692300C41A70 /* AccountETHTableViewCell.xib */,
+				3FD001772444694E00C41A70 /* HistoryEthereumTableViewCell.swift */,
+				3FD001792444698E00C41A70 /* ShowPrivateKeysView.xib */,
+				3FD0017B2444699B00C41A70 /* ShowPrivateKeysView.swift */,
+				3FD0017D244469DD00C41A70 /* MnemonicSuggestionsView.swift */,
+				3FD0017F244469E900C41A70 /* MnemonicSuggestionsView.xib */,
+				3F46031F24499B7D008F5B0D /* AddRecipientTableViewCell.swift */,
+				3F4603282449AB55008F5B0D /* MyLabelCell.swift */,
+				3F4603292449AB55008F5B0D /* MyLabelCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FD0010C244449F000C41A70 /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FD0012724444C9600C41A70 /* BaseViewController.swift */,
+				3FD00109244449B400C41A70 /* CreateWalletEthViewController.swift */,
+				3FD0011D24444BF500C41A70 /* ImportWalletEthViewController.swift */,
+				3FD0012124444C4400C41A70 /* MnemonicGenerationViewController.swift */,
+				3FD0012324444C6100C41A70 /* MnemonicVerificationViewController.swift */,
+				3FD0012524444C7D00C41A70 /* CreatePassWordEtherWalletViewController.swift */,
+				3FD0011B24444BA200C41A70 /* WalletEthViewController.swift */,
+				3FD0011F24444C2B00C41A70 /* DetailsWalletEthViewController.swift */,
+				3F3576F824480D9E00D5553F /* SettingsViewController.swift */,
+				3F3576FA24480DAE00D5553F /* MainTabbarViewController.swift */,
+				3F3576FC2448413500D5553F /* LockScreenViewController.swift */,
+				3F46031D24498F0A008F5B0D /* AddRecipientViewController.swift */,
+				3F4603262449A908008F5B0D /* SendETHToAddressViewController.swift */,
+				3F41722A244EB13800E7E0D7 /* ScanQRCodeViewController.swift */,
+				3FA5095B2468F2F30047BBC3 /* InfoTokenViewController.swift */,
+			);
+			path = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		3FD0010D24444A0400C41A70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FD00129244452EB00C41A70 /* WalletEthModel.swift */,
+				3FD0015F2444650A00C41A70 /* SettingApp.swift */,
+				3FD001682444677E00C41A70 /* HistoryEthModel.swift */,
+				3FD0016A244467A600C41A70 /* MultiBalanceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3FD0010E24444A0A00C41A70 /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				3FD0011924444B6000C41A70 /* Extension.swift */,
+				3FD0011724444AFB00C41A70 /* Localizable.strings */,
+				3FD0018124446A9F00C41A70 /* LetterImageGenerator.swift */,
+				3F4603242449A310008F5B0D /* UIImageView+Extensions.swift */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
+		3FD0012B2444543C00C41A70 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				3F24CD89244D8F8500DE50E2 /* SwiftNotificationCenter */,
+				3F4603212449A157008F5B0D /* MTSlideToOpenView */,
+				3FD00170244468B100C41A70 /* CustomView */,
+				3FD001612444654F00C41A70 /* NSBundle+Language */,
+				3FD0015A2444649F00C41A70 /* TextFieldEffects */,
+				3FD0012E2444547400C41A70 /* SwiftWebVC */,
+				3FD0012D2444546700C41A70 /* FontAwesome */,
+				3FD0012C2444544500C41A70 /* FTPopOverMenu */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		3FD0012C2444544500C41A70 /* FTPopOverMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3FD0014F244454F600C41A70 /* FTPopOverMenu.h */,
+				3FD00150244454F700C41A70 /* FTPopOverMenu.m */,
+			);
+			path = FTPopOverMenu;
+			sourceTree = "<group>";
+		};
+		3FD0012D2444546700C41A70 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				3FD0014A244454EA00C41A70 /* FAIcon.swift */,
+				3FD0014B244454EA00C41A70 /* FontAwesome.ttf */,
+			);
+			path = FontAwesome;
+			sourceTree = "<group>";
+		};
+		3FD0012E2444547400C41A70 /* SwiftWebVC */ = {
+			isa = PBXGroup;
+			children = (
+				3FD00130244454DD00C41A70 /* Resources */,
+				3FD00133244454DE00C41A70 /* Strings */,
+				3FD00140244454DE00C41A70 /* SwiftModalWebVC.swift */,
+				3FD00141244454DE00C41A70 /* SwiftWebVC.swift */,
+				3FD0012F244454DD00C41A70 /* SwiftWebVCActivity.swift */,
+				3FD00142244454DE00C41A70 /* SwiftWebVCActivityChrome.swift */,
+				3FD00132244454DE00C41A70 /* SwiftWebVCActivitySafari.swift */,
+			);
+			path = SwiftWebVC;
+			sourceTree = "<group>";
+		};
+		3FD00130244454DD00C41A70 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FD00131244454DD00C41A70 /* Media.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FD00133244454DE00C41A70 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				3FD00134244454DE00C41A70 /* SwiftWebVC.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		3FD0015A2444649F00C41A70 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				3FD0015C244464C000C41A70 /* HoshiTextField.swift */,
+				3FD0015B244464C000C41A70 /* TextFieldEffects.swift */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		3FD001612444654F00C41A70 /* NSBundle+Language */ = {
+			isa = PBXGroup;
+			children = (
+				3FD001632444657E00C41A70 /* NSBundle+Language.h */,
+				3FD001622444657E00C41A70 /* NSBundle+Language.m */,
+			);
+			path = "NSBundle+Language";
+			sourceTree = "<group>";
+		};
+		3FD00165244465BB00C41A70 /* ServiceData */ = {
+			isa = PBXGroup;
+			children = (
+				3FD00166244465CB00C41A70 /* LuvaServiceData.swift */,
+			);
+			path = ServiceData;
+			sourceTree = "<group>";
+		};
+		3FD00170244468B100C41A70 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				3FD00171244468C300C41A70 /* UICustomView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		86480A8E617973EF856355A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEC6D45317BE5F0266410920 /* Pods_LuvaEthWallet.framework */,
+				E0DE80B397653E649422C206 /* Pods_LuvaEthWallet_LuvaEthWalletUITests.framework */,
+				E05D95F32986ED33C5D35727 /* Pods_LuvaEthWalletTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB25FDF2DE7844223E43235E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9757C0D92C9FE8BACADD1278 /* Pods-LuvaEthWallet.debug.xcconfig */,
+				CB872541735A692F5517EF08 /* Pods-LuvaEthWallet.release.xcconfig */,
+				F1CFC3990C6D1DB759EF8F9E /* Pods-LuvaEthWallet-LuvaEthWalletUITests.debug.xcconfig */,
+				6D1D06844F3F5509A39FE7F1 /* Pods-LuvaEthWallet-LuvaEthWalletUITests.release.xcconfig */,
+				93F472DE67436B6D039AFB13 /* Pods-LuvaEthWalletTests.debug.xcconfig */,
+				6A877B57F6BABD6E8A6B785D /* Pods-LuvaEthWalletTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +483,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FD000FF2444448B00C41A70 /* Build configuration list for PBXNativeTarget "LuvaEthWallet" */;
 			buildPhases = (
+				89BE8E14FC1358A44AC58401 /* [CP] Check Pods Manifest.lock */,
 				3FD000D12444448900C41A70 /* Sources */,
 				3FD000D22444448900C41A70 /* Frameworks */,
 				3FD000D32444448900C41A70 /* Resources */,
+				EA5CBF3F121BFF7A8F64481D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +502,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FD001022444448B00C41A70 /* Build configuration list for PBXNativeTarget "LuvaEthWalletTests" */;
 			buildPhases = (
+				5B3CB0254E9A12DAB7274851 /* [CP] Check Pods Manifest.lock */,
 				3FD000E72444448B00C41A70 /* Sources */,
 				3FD000E82444448B00C41A70 /* Frameworks */,
 				3FD000E92444448B00C41A70 /* Resources */,
@@ -170,9 +521,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FD001052444448B00C41A70 /* Build configuration list for PBXNativeTarget "LuvaEthWalletUITests" */;
 			buildPhases = (
+				EB1F1A60EE85DF42D2A0B9B2 /* [CP] Check Pods Manifest.lock */,
 				3FD000F22444448B00C41A70 /* Sources */,
 				3FD000F32444448B00C41A70 /* Frameworks */,
 				3FD000F42444448B00C41A70 /* Resources */,
+				FDA700104AD7DE1E82BA7E42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +549,7 @@
 				TargetAttributes = {
 					3FD000D42444448900C41A70 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					3FD000EA2444448B00C41A70 = {
 						CreatedOnToolsVersion = 11.4;
@@ -214,6 +568,16 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
+				de,
+				"zh-Hans",
+				ja,
+				es,
+				da,
+				"es-ES",
+				"zh-Hant",
+				fr,
+				pt,
 			);
 			mainGroup = 3FD000CC2444448900C41A70;
 			productRefGroup = 3FD000D62444448900C41A70 /* Products */;
@@ -232,9 +596,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD00180244469E900C41A70 /* MnemonicSuggestionsView.xib in Resources */,
+				3FD0016F2444684F00C41A70 /* MenuWalletEthView.xib in Resources */,
+				3FD00146244454DE00C41A70 /* SwiftWebVC.strings in Resources */,
+				3FD0014D244454EA00C41A70 /* FontAwesome.ttf in Resources */,
+				3FD00144244454DE00C41A70 /* Media.xcassets in Resources */,
 				3FD000E52444448B00C41A70 /* LaunchScreen.storyboard in Resources */,
+				3FD001762444692300C41A70 /* AccountETHTableViewCell.xib in Resources */,
+				3FD001592444641E00C41A70 /* MnemonicCollectionViewCell.xib in Resources */,
+				3F46032B2449AB55008F5B0D /* MyLabelCell.xib in Resources */,
+				3FD0011524444AFB00C41A70 /* Localizable.strings in Resources */,
 				3FD000E22444448B00C41A70 /* Assets.xcassets in Resources */,
 				3FD000E02444448900C41A70 /* Main.storyboard in Resources */,
+				3FD0017A2444698E00C41A70 /* ShowPrivateKeysView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +628,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B3CB0254E9A12DAB7274851 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuvaEthWalletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89BE8E14FC1358A44AC58401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuvaEthWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5CBF3F121BFF7A8F64481D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuvaEthWallet/Pods-LuvaEthWallet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuvaEthWallet/Pods-LuvaEthWallet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuvaEthWallet/Pods-LuvaEthWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB1F1A60EE85DF42D2A0B9B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuvaEthWallet-LuvaEthWalletUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA700104AD7DE1E82BA7E42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuvaEthWallet-LuvaEthWalletUITests/Pods-LuvaEthWallet-LuvaEthWalletUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuvaEthWallet-LuvaEthWalletUITests/Pods-LuvaEthWallet-LuvaEthWalletUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuvaEthWallet-LuvaEthWalletUITests/Pods-LuvaEthWallet-LuvaEthWalletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FD000D12444448900C41A70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FD000DD2444448900C41A70 /* ViewController.swift in Sources */,
+				3FD00143244454DE00C41A70 /* SwiftWebVCActivity.swift in Sources */,
+				3FD00147244454DE00C41A70 /* SwiftModalWebVC.swift in Sources */,
+				3FD001642444657E00C41A70 /* NSBundle+Language.m in Sources */,
+				3FD0012624444C7D00C41A70 /* CreatePassWordEtherWalletViewController.swift in Sources */,
+				3FD0017E244469DD00C41A70 /* MnemonicSuggestionsView.swift in Sources */,
+				3FD001742444691200C41A70 /* AccountETHTableViewCell.swift in Sources */,
+				3FD0011A24444B6000C41A70 /* Extension.swift in Sources */,
+				3F46031E24498F0A008F5B0D /* AddRecipientViewController.swift in Sources */,
+				3FD0012A244452EB00C41A70 /* WalletEthModel.swift in Sources */,
+				3FD00145244454DE00C41A70 /* SwiftWebVCActivitySafari.swift in Sources */,
+				3FA5095C2468F2F30047BBC3 /* InfoTokenViewController.swift in Sources */,
+				3FD0016D2444684000C41A70 /* MenuWalletEthView.swift in Sources */,
+				3FD001582444641E00C41A70 /* MnemonicCollectionViewCell.swift in Sources */,
+				3FD00172244468C300C41A70 /* UICustomView.swift in Sources */,
+				3FD0012224444C4400C41A70 /* MnemonicGenerationViewController.swift in Sources */,
+				3F3576FD2448413500D5553F /* LockScreenViewController.swift in Sources */,
+				3F46032024499B7D008F5B0D /* AddRecipientTableViewCell.swift in Sources */,
+				3FD0014C244454EA00C41A70 /* FAIcon.swift in Sources */,
+				3FD001692444677E00C41A70 /* HistoryEthModel.swift in Sources */,
+				3F4603232449A164008F5B0D /* MTSlideToOpenView.swift in Sources */,
+				3FD0011C24444BA200C41A70 /* WalletEthViewController.swift in Sources */,
+				3FD00167244465CB00C41A70 /* LuvaServiceData.swift in Sources */,
+				3FD0017C2444699B00C41A70 /* ShowPrivateKeysView.swift in Sources */,
+				3FD00149244454DE00C41A70 /* SwiftWebVCActivityChrome.swift in Sources */,
+				3F24CD8D244D904D00DE50E2 /* WeakObjectSet.swift in Sources */,
+				3FD001782444694E00C41A70 /* HistoryEthereumTableViewCell.swift in Sources */,
+				3F4603272449A908008F5B0D /* SendETHToAddressViewController.swift in Sources */,
+				3F41722B244EB13800E7E0D7 /* ScanQRCodeViewController.swift in Sources */,
+				3FD0012424444C6100C41A70 /* MnemonicVerificationViewController.swift in Sources */,
+				3FD0012824444C9600C41A70 /* BaseViewController.swift in Sources */,
+				3FD0016B244467A600C41A70 /* MultiBalanceModel.swift in Sources */,
+				3FD0010A244449B400C41A70 /* CreateWalletEthViewController.swift in Sources */,
+				3F3576FB24480DAE00D5553F /* MainTabbarViewController.swift in Sources */,
+				3FD0015D244464C000C41A70 /* TextFieldEffects.swift in Sources */,
+				3F4603252449A310008F5B0D /* UIImageView+Extensions.swift in Sources */,
+				3FD0015E244464C000C41A70 /* HoshiTextField.swift in Sources */,
 				3FD000D92444448900C41A70 /* AppDelegate.swift in Sources */,
-				3FD000DB2444448900C41A70 /* SceneDelegate.swift in Sources */,
+				3F46032A2449AB55008F5B0D /* MyLabelCell.swift in Sources */,
+				3FD00151244454F700C41A70 /* FTPopOverMenu.m in Sources */,
+				3F24CD8E244D904D00DE50E2 /* SwiftNotificationCenter.swift in Sources */,
+				3FD0012024444C2B00C41A70 /* DetailsWalletEthViewController.swift in Sources */,
+				3F3576F924480D9E00D5553F /* SettingsViewController.swift in Sources */,
+				3FD0018224446A9F00C41A70 /* LetterImageGenerator.swift in Sources */,
+				3FD0011E24444BF500C41A70 /* ImportWalletEthViewController.swift in Sources */,
+				3FD001602444650A00C41A70 /* SettingApp.swift in Sources */,
+				3FD00148244454DE00C41A70 /* SwiftWebVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +833,33 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		3FD0011724444AFB00C41A70 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD0011624444AFB00C41A70 /* en */,
+				3FD0011824444B0000C41A70 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3FD00134244454DE00C41A70 /* SwiftWebVC.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD00135244454DE00C41A70 /* de */,
+				3FD00136244454DE00C41A70 /* zh-Hans */,
+				3FD00137244454DE00C41A70 /* ja */,
+				3FD00138244454DE00C41A70 /* en */,
+				3FD00139244454DE00C41A70 /* es */,
+				3FD0013A244454DE00C41A70 /* da */,
+				3FD0013B244454DE00C41A70 /* es-ES */,
+				3FD0013C244454DE00C41A70 /* zh-Hant */,
+				3FD0013D244454DE00C41A70 /* vi */,
+				3FD0013E244454DE00C41A70 /* fr */,
+				3FD0013F244454DE00C41A70 /* pt */,
+			);
+			name = SwiftWebVC.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -320,6 +867,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +928,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -432,40 +981,56 @@
 		};
 		3FD001002444448B00C41A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9757C0D92C9FE8BACADD1278 /* Pods-LuvaEthWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LuvaEthWallet/LuvaEthWallet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = THG4GFSP7N;
 				INFOPLIST_FILE = LuvaEthWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.luvapay.LuvaEthWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luvapay.ethwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LuvaEthWallet/LuvaEthWallet-Bridging.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3FD001012444448B00C41A70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB872541735A692F5517EF08 /* Pods-LuvaEthWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LuvaEthWallet/LuvaEthWallet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = THG4GFSP7N;
 				INFOPLIST_FILE = LuvaEthWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.luvapay.LuvaEthWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luvapay.ethwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LuvaEthWallet/LuvaEthWallet-Bridging.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		3FD001032444448B00C41A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F472DE67436B6D039AFB13 /* Pods-LuvaEthWalletTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +1052,7 @@
 		};
 		3FD001042444448B00C41A70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A877B57F6BABD6E8A6B785D /* Pods-LuvaEthWalletTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1074,7 @@
 		};
 		3FD001062444448B00C41A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CFC3990C6D1DB759EF8F9E /* Pods-LuvaEthWallet-LuvaEthWalletUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +1094,7 @@
 		};
 		3FD001072444448B00C41A70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1D06844F3F5509A39FE7F1 /* Pods-LuvaEthWallet-LuvaEthWalletUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

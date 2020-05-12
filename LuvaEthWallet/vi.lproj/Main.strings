@@ -1,0 +1,111 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Iz-Wg-5Jp"; */
+"1Iz-Wg-5Jp.text" = "Label";
+
+/* Class = "UILabel"; text = "Bạn có thể nhập tài khoản Ethereum của mình vào thông qua mã khoá riêng."; ObjectID = "1x2-Re-aSS"; */
+"1x2-Re-aSS.text" = "Bạn có thể nhập tài khoản Ethereum của mình vào thông qua mã khoá riêng.";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4EO-o7-9SL"; */
+"4EO-o7-9SL.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "639-in-65J"; */
+"639-in-65J.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6tu-mE-qWL"; */
+"6tu-mE-qWL.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "0.457182 ETH"; ObjectID = "9M3-gC-KiH"; */
+"9M3-gC-KiH.text" = "0.457182 ETH";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9Oq-fq-zUo"; */
+"9Oq-fq-zUo.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Main Ethereum NetWork"; ObjectID = "9rn-jk-pJp"; */
+"9rn-jk-pJp.text" = "Main Ethereum NetWork";
+
+/* Class = "UIButton"; normalTitle = "aaa"; ObjectID = "BSJ-AA-AId"; */
+"BSJ-AA-AId.normalTitle" = "aaa";
+
+/* Class = "UILabel"; text = "Send"; ObjectID = "DbT-z8-p7p"; */
+"DbT-z8-p7p.text" = "Send";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GeZ-B3-9Ut"; */
+"GeZ-B3-9Ut.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Gh5-j2-aa3"; */
+"Gh5-j2-aa3.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JN3-8I-M27"; */
+"JN3-8I-M27.text" = "Label";
+
+/* Class = "UILabel"; text = "History"; ObjectID = "KfQ-EC-fFz"; */
+"KfQ-EC-fFz.text" = "History";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Kz2-k9-Jak"; */
+"Kz2-k9-Jak.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ndi-bH-hAm"; */
+"Ndi-bH-hAm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QcJ-T7-8EN"; */
+"QcJ-T7-8EN.text" = "Label";
+
+/* Class = "UILabel"; text = "Bắt đầu!"; ObjectID = "U12-Ut-2Z2"; */
+"U12-Ut-2Z2.text" = "Bắt đầu!";
+
+/* Class = "UILabel"; text = "Tạo tài khoản Ethereum."; ObjectID = "UNw-Nt-U1b"; */
+"UNw-Nt-U1b.text" = "Tạo tài khoản Ethereum.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UVx-ai-teF"; */
+"UVx-ai-teF.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "V32-OE-fnf"; */
+"V32-OE-fnf.text" = "Label";
+
+/* Class = "UILabel"; text = "Deposit"; ObjectID = "VQh-KC-QPj"; */
+"VQh-KC-QPj.text" = "Deposit";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Wfb-u1-9e6"; */
+"Wfb-u1-9e6.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZwG-XS-t30"; */
+"ZwG-XS-t30.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aSS-Gv-ZlU"; */
+"aSS-Gv-ZlU.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "csW-0g-Nl5"; */
+"csW-0g-Nl5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dQY-RR-TBm"; */
+"dQY-RR-TBm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dnu-Bl-cmR"; */
+"dnu-Bl-cmR.text" = "Label";
+
+/* Class = "UISegmentedControl"; gTW-Qh-gIa.segmentTitles[0] = "First"; ObjectID = "gTW-Qh-gIa"; */
+"gTW-Qh-gIa.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; gTW-Qh-gIa.segmentTitles[1] = "Second"; ObjectID = "gTW-Qh-gIa"; */
+"gTW-Qh-gIa.segmentTitles[1]" = "Second";
+
+/* Class = "UILabel"; text = "Account 1"; ObjectID = "h5M-ol-4vm"; */
+"h5M-ol-4vm.text" = "Account 1";
+
+/* Class = "UILabel"; text = "FAILED"; ObjectID = "hfT-2e-RbB"; */
+"hfT-2e-RbB.text" = "FAILED";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "i7J-6l-rCX"; */
+"i7J-6l-rCX.text" = "Label";
+
+/* Class = "UILabel"; text = "0x4795123123...7606123123"; ObjectID = "jPk-P0-Pwz"; */
+"jPk-P0-Pwz.text" = "0x4795123123...7606123123";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mMN-mQ-QlD"; */
+"mMN-mQ-QlD.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "r7S-1n-tfU"; */
+"r7S-1n-tfU.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sgf-Xk-Wwn"; */
+"sgf-Xk-Wwn.normalTitle" = "Button";

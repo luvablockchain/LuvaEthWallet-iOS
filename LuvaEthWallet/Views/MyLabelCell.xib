@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="brM-5P-0Om" customClass="MyLabelCell" customModule="LuvaEthWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="brM-5P-0Om" id="jDX-ae-PCO">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgL-2K-zCb">
+                        <rect key="frame" x="15" y="18" width="28" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="28" id="Ia1-z5-YnT"/>
+                            <constraint firstAttribute="height" constant="28" id="h3Z-yi-X5a"/>
+                        </constraints>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVu-U2-ajh">
+                        <rect key="frame" x="55" y="10" width="251" height="40.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="P4d-ML-DVq"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="l6y-Ws-8oO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cVu-U2-ajh" firstAttribute="leading" secondItem="vgL-2K-zCb" secondAttribute="trailing" constant="12" id="9Sf-5g-FrZ"/>
+                    <constraint firstItem="vgL-2K-zCb" firstAttribute="top" secondItem="jDX-ae-PCO" secondAttribute="top" constant="18" id="G0P-OT-JeI"/>
+                    <constraint firstAttribute="bottom" secondItem="cVu-U2-ajh" secondAttribute="bottom" constant="9.5" id="JJj-Kn-atI"/>
+                    <constraint firstItem="cVu-U2-ajh" firstAttribute="top" secondItem="jDX-ae-PCO" secondAttribute="top" constant="10" id="KYP-IP-KtI"/>
+                    <constraint firstAttribute="trailing" secondItem="cVu-U2-ajh" secondAttribute="trailing" constant="14" id="TXI-b7-eDM"/>
+                    <constraint firstItem="vgL-2K-zCb" firstAttribute="leading" secondItem="jDX-ae-PCO" secondAttribute="leading" constant="15" id="vww-ot-ncl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="mHT-zo-ehy"/>
+            <point key="canvasLocation" x="111.59420289855073" y="108.48214285714285"/>
+        </tableViewCell>
+    </objects>
+</document>
